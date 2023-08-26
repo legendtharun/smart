@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartwebby.com</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        div{
+            float: left;
+            box-sizing: border-box;
+        }
+        .banner{
+            background-color: rgb(255, 0, 191);
+            padding: 15px;
+            display: flex;
+            width: 100%;
+        }
+        #fimg{
+            margin-left: 20px;
+            border-radius: 10px;
+            box-shadow: -5px -5px 5px rgb(243, 7, 251);
+            filter: drop-shadow(-5px -5px 5px black);
+            float: left;
+        }
+        #bimg{
+            margin-left: 50px;
+            border-radius: 10px;
+            box-shadow: 5px -5px 5px rgb(243, 7, 251);
+            filter: drop-shadow(5px -5px 5px black);
+            float: left;
+            
+        }
+        .head{
+            width: 70%;
+        }
+        #heading{
+            float: left;
+            padding-left: 200px;
+            margin-top: 20px;
+            font-family: fantasy;
+            font-family: Papyrus, fantasy;
+            color: white;
+            font-weight: bolder;
+            font-size: 50px;
+            display: block;
+            margin: auto;
+        }
+        #slogan{
+            
+            margin-top: 70px;
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            color: white;
+            
+        }
+        .nav{
+            background-color:rgb(251, 146, 255);
+            padding: 10px;
+            width: 100%;
+        }
+        .nav a{
+            padding: 10px;
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bolder ;
+            justify-content: space-between;
+            margin-left: 15px;
+        }
+        .nav a:hover{
+            background-color: lightskyblue;
+        }
+        .course{
+            float: left;
+            position: relative;
+        }
+        .list{
+            display: none;
+            
+        }
+        
+        .course:hover #courseactive{
+            background-color: lightskyblue;
+        }
+        .course:hover .list{
+            display: block;
+            position: absolute;
+        }
+        .list{
+            background-color: rgb(243, 7, 251);
+            width: 150%;
+
+        }
+        .list a{
+            margin-left: 0;
+            width: 88%;
+        }
+       
+        .list a:hover{
+            background-color: lightskyblue;
+            
+        }
+        .addons{
+            border: 5px solid black;
+            margin-left: 60px;
+            margin-top: 50px;
+            padding: 20px;
+            padding-top: 60px;
+            padding-bottom: 80px;
+            box-shadow: -5px -5px 5px rgb(243, 7, 251) ;
+            border-radius: 20px;
+
+        }
+        .addons ul,.body ul{
+            padding-left: 20px;
+            
+        }
+        .body{
+            border: 5px solid black;
+            font-size: 20px;
+            padding: 40px;
+            margin-left: 200px;
+            margin-top: 50px ;
+            font-family: cursive;
+            font-family: Brush Script MT, Brush Script Std, cursive;
+            box-shadow: 5px -5px 5px rgb(243, 7, 251) ;
+            border-radius: 20px;
+            
+        }
+        .body a{
+            color: rgb(241, 3, 249);
+            font-size: 25px; 
+            font-family: Papyrus, fantasy;
+        }
+        .foot{
+            width: 100%;
+            background-color: rgb(255, 0, 191);
+            padding: 15px;
+            margin-top: 35px;
+            color: white;
+            text-align: center;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <img id='fimg' src="https://www.cameraegg.org/wp-content/uploads/2016/01/Nikon-D500-Sample-Images-2.jpg" alt="" width="100px" height="100px">
+        <div class="head">
+        <h1 id='heading' >Smartwebby</h1>
+        <h3 id="slogan">The best education site</h3>
+    </div>
+        <img id='bimg'src="https://miro.medium.com/max/1400/1*S81O15rjKfG-BFdnNC6-GQ.jpeg" alt="" width="100px" height="100px">
+    </div>
+    <div class="nav">
+        <div class="home">
+        <a href="">Home</a>
+    </div>
+    <div class="about">
+        <a href="">About us</a>
+    </div>
+        <div class="course">
+            <a id='courseactive'href="">Courses</a>
+            <div class="list">
+                <a href="">Python</a>
+                <a href="">HTML & CSS</a>
+                <a href="">Javascript</a>
+            </div>
+        </div>
+        <div class="resource">
+        <a href="">Resources</a></div>
+        <div class="contact">
+        <a href="">Contact us</a>
+    </div>
+    </div>
+    <div class="addons">
+        <h3 style="color: rgb(241, 3, 249);font-size: 25px; font-family: Papyrus, fantasy;">Website addons</h3><br><br>
+        <p>Check out our easy to integrate</p>
+        <p>Website addons</p><br>
+        <ul type="square">
+            <li>Smart survey</li>
+            <li>Smart Multipoll</li>
+            <li>Smart Poll</li>
+            <li>Smart Guest Book</li>
+            <li>Smart Quota</li>
+        </ul>
+    </div>
+    <div class="body">
+        <h1 style="color: rgb(241, 3, 249);font-size: 25px; font-family: Papyrus, fantasy;">Features of this Education template</h1><br>
+        <ul type="square">
+            <li>Unique, attractive kids web site template design with cool colors</li>
+            <li>Easy-to-use Drop-down Menus</li>
+            <li>Javascript Date display</li>
+            <li>Easy-to-edit Text Links</li>
+            <li>All 11 linked HTML pages included</li>
+            <li>Cross Browser Compatible -Tested for IE 5+, Netscape 6+,opera 7+ <br>Firefox 1.0+</li>
+            <li>Designed to streach and fit all resolutions</li>
+        </ul>
+        <a href="">Buy now</a> for only 50.99$,<a href="">Add to cart</a><br>
+        <a href="">More templates from Smartwebby.com</a>
+    </div>
+    <div class="foot">
+        Copyright by Smartwebby.com. All rights reserved.
+    </div>
+    
+</body>
+</html>
